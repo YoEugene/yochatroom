@@ -24,7 +24,7 @@
 		})
 
 		$('.newmessage').on('keyup', function(e){
-			if(e.which === 13 && $(this).val != '') {
+			if(e.which === 13 && $(this).val() != '') {
 				messages.emit('newMessage', {
 					room_number: roomNum,
 					user: userName,
