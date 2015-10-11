@@ -17,7 +17,7 @@
         "hogan-express": "0.5.2",
         "cookie-parser": "1.1.0",
         "express-session": "1.2.0",
-        "connect-mongo": "0.4.1",
+        "connect-mongo": "0.8.0",
         "mongoose": "*",
         "passport": "0.2.0",
         "passport-facebook": "1.0.3",
