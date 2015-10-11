@@ -3,8 +3,6 @@
     "version": "0.0.1",
     "description": "",
     "main": "app.js",
-    // This will tell Heroku to invoke a node process
-    // and use app.js as the main script file
     "scripts": {
         "start": "node app.js"
     },
