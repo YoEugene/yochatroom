@@ -1,0 +1,10 @@
+{
+	"dbURL":"mongodb://yochat:root@ds061308.mongolab.com:61308/yochat2",
+	"sessionSecret":"ASDASDE@$#r2r34R$X#cc34CR#$C",
+	"fb": {
+		"appID": "1104788432873041",
+		"appSecret": "2807a07995a6d4614eee6c7c550e484c",
+		"callbackURL": "http://yochatroom.herokuapp.com/auth/facebook/callback"
+	},
+	"host": "http://yochatroom.herokuapp.com"
+}

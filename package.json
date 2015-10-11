@@ -1,0 +1,24 @@
+{
+    "name": "YoChat",
+    "version": "0.0.1",
+    "description": "",
+    "main": "app.js",
+    // This will tell Heroku to invoke a node process
+    // and use app.js as the main script file
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "YoEugene",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "express": "4.2.0",
+        "hogan-express": "0.5.2",
+        "cookie-parser": "1.1.0",
+        "express-session": "1.2.0",
+        "connect-mongo": "0.4.1",
+        "mongoose": "*",
+        "passport": "0.2.0",
+        "passport-facebook": "1.0.3",
+        "socket.io": "0.9.17"
+    }
+}
