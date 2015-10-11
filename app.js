@@ -91,9 +91,3 @@ require('./socket/socket.js')(io, rooms);
 server.listen(app.get('port'), function() {
     console.log('YoChat on Port: ' + app.get('port'));
 });
-
-
-
-
-
-
